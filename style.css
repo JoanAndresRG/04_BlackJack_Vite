@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  background-color: #2f4f30;
+  color: #fff;
+}
+
+.title{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-size: 25px;
+  font-family: 'emoji';
+}
+
+.mirror-text {
+  color: #aaa;
+  font-size: 25px;
+  display: block;
+  transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  margin-top: -15px;
+  font-family: 'emoji';
+  text-shadow: 1px 1px 8px #fff;
+}
+
+.cards{
+  position: relative;
+  width: 125px;
+  left: 125px;
+  margin-left: -70px;
+}
+
+#computer-cards, #player-cards {
+  height: 180px;
+}
