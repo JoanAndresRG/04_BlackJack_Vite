@@ -2,4 +2,4 @@
 
 
 1_ git clone 
-2_ Execute "npm install"
+2_ Execute ```npm install```
